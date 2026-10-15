@@ -1,0 +1,23 @@
+CHECKLIST DE MANUTENÇÃO PREVENTIVA EM SUBESTAÇÃO - APP OFFLINE (Android)
+
+1) PUBLICAR (uma vez, no computador)
+   - Abra https://app.netlify.com/drop
+   - Arraste a PASTA com estes arquivos (descompacte o .zip antes).
+   - Copie o endereço https gerado (ex.: https://nome-aleatorio.netlify.app).
+   Alternativas gratuitas: GitHub Pages ou Cloudflare Pages.
+
+2) INSTALAR NO ANDROID (cada celular)
+   - Abra o endereço no Chrome, COM internet.
+   - Aguarde carregar por completo (alguns segundos).
+   - Toque nos 3 pontinhos > "Instalar app" (ou "Adicionar à tela inicial").
+   - Abra o app pelo ícone. Pronto: funciona em modo avião.
+
+3) ATUALIZAR O APP
+   - Altere os arquivos, mude CACHE = 'checklist-subestacao-v2' para v2 em sw.js
+     e publique de novo. Os celulares atualizam ao abrir o app com internet.
+
+4) SEGURANÇA DOS DADOS
+   - Os checklists ficam no celular (IndexedDB).
+   - Gere o PDF de cada checklist concluído (botão Imprimir / PDF > Salvar como PDF).
+   - Use "Baixar backup" na lista de vez em quando.
+   - Não limpe os dados do Chrome nem desinstale o app sem fazer backup.
