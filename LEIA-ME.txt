@@ -13,7 +13,7 @@ CHECKLIST DE MANUTENÇÃO PREVENTIVA EM SUBESTAÇÃO - APP OFFLINE (Android)
    - Abra o app pelo ícone. Pronto: funciona em modo avião.
 
 3) ATUALIZAR O APP
-   - Altere os arquivos, mude CACHE = 'checklist-subestacao-v3' para v2 em sw.js
+   - Altere os arquivos, mude CACHE = 'checklist-subestacao-v4' para v2 em sw.js
      e publique de novo. Os celulares atualizam ao abrir o app com internet.
 
 4) SEGURANÇA DOS DADOS
