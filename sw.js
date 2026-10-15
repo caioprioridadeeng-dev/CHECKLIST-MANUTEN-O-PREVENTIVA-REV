@@ -1,6 +1,6 @@
 // Aumente o número da versão sempre que alterar o app, para os celulares atualizarem.
-const CACHE = 'checklist-subestacao-v2';
-const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
+const CACHE = 'checklist-subestacao-v3';
+const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
